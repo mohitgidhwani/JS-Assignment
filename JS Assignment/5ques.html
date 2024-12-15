@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        for (i = 0; i <= 10; i++) {
+            document.write(i + "<br>")
+        }
+
+        document.write("<br>")
+
+
+        let number = 1;
+        let sum = 0;
+
+
+        while (number <= 20) {
+            if (number % 2 == 0) {
+                sum += number;
+            }
+            number++;
+        }
+
+
+        document.write(sum);
+
+        document.write("<br>")
+
+
+        let find;
+
+        do{
+            find = parseFloat(prompt("Enter a number greater than 10:"))
+
+           
+        }while(find<=10)
+
+        document.write("Thank you! You entered:" ,find)
+
+
+
+
+    </script>
+</body>
+
+</html>

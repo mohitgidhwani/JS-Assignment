@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="first">
+    <button onclick="test()">Submit</button>
+    <br>
+    <br>
+    <br>
+    <input type="text" name="" id="inp1">
+    <input type="text" name="" id="inp2">
+    <button onclick="test1()">Sum</button>
+    <h1 id="result"></h1>
+    <script>
+       input = document.getElementById('first');
+
+       function test(user)
+       {
+         alert("Hello" + " " +input.value)  
+       }
+
+
+      
+       inp1 = document.getElementById('inp1');
+       inp2 = document.getElementById('inp2');
+       result = document.getElementById('result');
+
+       function test1()
+       {
+        result.innerHTML = (Number(inp1.value) + Number(inp2.value))
+       }
+
+
+    </script>
+</body>
+</html>
